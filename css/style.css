@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.container{
+    width:95%;
+    margin:auto;
+}
+.head{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 20%;
+ border: 1px solid chartreuse;;
+ margin: auto;
+ padding:10px 30px;
+ border-radius: 30px;
+ margin-top: 10px;
+ background-color: chartreuse;
+ color:red;
+ font-size: 25px;
+ box-shadow: 0 0 10px chartreuse ;
+}
+button{
+   
+    width:auto;
+    border: 1px solid aqua;
+    padding: 10px 20px; 
+    border-radius: 30px;
+    background-color: aqua;
+    color: blue;
+    font-size: 20px;
+    box-shadow: 0 0 10px aqua ;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 3%;
+    
+    
+}
